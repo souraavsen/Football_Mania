@@ -73,7 +73,7 @@ span {
 .detail_info {
   width: 72vh;
   height: 30vh;
-  padding: 27vh 7vh 35.9vh 10vh;
+  padding: 27vh 6vh 35.9vh 12vh;
 }
 
 .image img {
@@ -205,20 +205,20 @@ table tr:hover {
   background-color: rgb(218, 223, 248);
 }
 
-.palyer {
+.player_status {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-right: -100px;
 }
-.palyer .player {
+.player_status .player {
   border-radius: 50%;
   height: 8vh;
   width: 8vh;
   padding: 1vh 3vh;
 }
 
-.palyer .flag {
+.player_status .flag {
   height: 18px;
   width: 18px;
   padding-left: 10px;
@@ -369,16 +369,16 @@ table tr:hover {
 
 
 
-  .palyer .player {
+  .player_status .player {
     height: 3vh;
     width: 3vh;
     padding: 1vh 0.5vh;
   }
-  .palyer {
+  .player_status {
     margin-right: 6px;
   }
 
-  .palyer .flag {
+  .player_status .flag {
     height: 10px;
     width: 10px;
   }
@@ -421,3 +421,5 @@ table tr:hover {
     font-weight: 400;
   }
 }
+
+
