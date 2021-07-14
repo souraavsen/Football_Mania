@@ -146,7 +146,7 @@ span {
 
 /* Main Contet / Player's Information */
 
-.main_article{
+.main_article {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,7 +157,7 @@ span {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 4vh;
   grid-row-gap: 3.5vh;
-  margin-top:9vh;
+  margin-top: 9vh;
   margin-bottom: 22vh;
   align-items: center;
   background-color: white;
@@ -185,7 +185,7 @@ hr {
 table {
   border-collapse: collapse;
   width: 75%;
-  margin:9vh auto;
+  margin: 9vh auto;
   box-shadow: 0px 0px 5.2vh rgba(0, 0, 0, 0.15);
 }
 
@@ -231,7 +231,7 @@ table tr:hover {
 .last_match {
   width: 75%;
   text-align: center;
-  margin: auto;
+  margin: 10vh auto;
 }
 
 .last_match img {
@@ -252,13 +252,22 @@ table tr:hover {
 
 /* Footer Sections's Style */
 .footer {
-  padding: 20.5vh 62.5vh 7vh 62vh;
-  width: 63vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16vh 0 12vh 0;
+  width: 100%;
 }
 
 .footer img {
-  width: 100%;
-  height: 14.3vh;
+  width: 50%;
+  height: 15vh;
+}
+
+.footer .footerimage{
+  display: flex;
+  justify-content: center;
 }
 
 .social_icons {
@@ -281,8 +290,6 @@ table tr:hover {
   cursor: pointer;
 }
 /* ------------------------------- */
-
-
 
 /* This Section Is For Media Query */
 
@@ -330,11 +337,11 @@ table tr:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-row-gap: 3vh;
     margin: 0 auto;
-    padding: 6vh 2vh 3vh 2vh;
+    padding: 6vh 0 3vh 0;
   }
 
   article {
-    width: 36vh;
+    width: 35vh;
     height: 62vh;
     padding: 2vh;
     margin: 0 auto;
@@ -351,16 +358,20 @@ table tr:hover {
   }
 
   th {
-    padding-top: 1vh 0;
+    padding: 1vh 0;
     background-color: #1100ffab;
     color: white;
-    padding: 0.5vh;
+    padding: 0.2vh;
+      font-size: 12px;
+    font-weight: 400;
   }
 
   table td {
     padding: 2px 1px;
-    font-size: 10px;
+    font-size: 8px;
   }
+
+
 
   .palyer .player {
     height: 3vh;
@@ -394,25 +405,23 @@ table tr:hover {
 
   /* For Footer Section */
   .footer {
-    padding: 7vh ;
-    width: 16vh;
+    width: 100%;
     margin: auto;
   }
-  
+
   .footer img {
-    width: 100%;
+    width: 50%;
     height: 4vh;
   }
 
-   .social_icon {
+  .social_icon {
     background-color: #969bab;
     padding: 2px 6px;
     font-size: 12px;
   }
-  
-  .footer h4{
+
+  .footer h4 {
     font-size: 8px;
     font-weight: 400;
   }
-
 }
