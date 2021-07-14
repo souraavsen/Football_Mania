@@ -71,7 +71,7 @@ span {
 }
 
 .detail_info {
-  width: 72.71vh;
+  width: 72vh;
   height: 30vh;
   padding: 27vh 13vh 35.9vh 20.3vh;
 }
@@ -145,12 +145,21 @@ span {
 /* ---------------------------- */
 
 /* Main Contet / Player's Information */
+
+.main_article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 4vh;
   grid-row-gap: 3.5vh;
-  margin: 9vh 26vh 21.5vh 24.5vh;
+  margin-top:9vh;
+  margin-bottom: 22vh;
+  align-items: center;
   background-color: white;
 }
 
