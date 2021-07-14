@@ -73,11 +73,7 @@ span {
 .detail_info {
   width: 72vh;
   height: 30vh;
-  padding: 27vh 13vh 35.9vh 20.3vh;
-}
-
-.image {
-  padding-right: 16vh;
+  padding: 27vh 7vh 35.9vh 10vh;
 }
 
 .image img {
@@ -319,7 +315,7 @@ table tr:hover {
   }
 
   .image img {
-    width: 43vh;
+    width: 41vh;
     height: 32vh;
     padding-top: 0;
   }
